@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import TopBar from './components/TopBar'
 import Main from './components/Main'
 import AboutMe from './components/AboutMe'
 import Infos from './components/Infos'
 import Skills from './components/Skills'
+import TimeLine from './components/TimeLine'
 
 function App() {
 
@@ -18,7 +16,7 @@ function App() {
       <AboutMe />   
       <Infos />
       <Skills />
-      
+      <TimeLine />
     </div>
      </>
   )
