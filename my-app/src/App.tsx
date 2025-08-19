@@ -17,7 +17,7 @@ function App() {
       <Main />  
       <AboutMe />   
       <Infos />
-      <Skills/>
+      <Skills />
       
     </div>
      </>
