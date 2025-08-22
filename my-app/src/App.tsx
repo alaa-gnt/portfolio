@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import TimeLine from './components/TimeLine'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
       <TimeLine />
       <Projects />
       <Contact />
+      <Footer />
     </div>
      </>
   )
