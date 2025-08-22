@@ -22,7 +22,7 @@ export default function TimeLineBox({
     yearColor = "text-blue-400" // Default color if none provided
 }: TimeLineBoxProps) {
     return (
-        <div className="border border-[#ee4848] p-4 sm:p-6 lg:p-8 rounded-xl max-w-xs sm:max-w-sm bg-[#0a0a0a]/50 backdrop-blur-sm transition-all duration-300 hover:border-[#ff6b6b] hover:scale-105 hover:shadow-xl hover:shadow-[#ff6b6b]/40">
+        <div className="border border-[#ee4848] p-3 sm:p-4 rounded-xl max-w-xs bg-[#0a0a0a]/50 backdrop-blur-sm transition-all duration-300 hover:border-[#ff6b6b] hover:scale-105 hover:shadow-xl hover:shadow-[#ff6b6b]/40">
            
             {/* Header with year and duration */}
             <div className="flex gap-2 sm:gap-3 items-center mb-3 sm:mb-4">
@@ -63,7 +63,7 @@ export default function TimeLineBox({
                     <h3 className="text-white font-medium text-xs sm:text-sm mb-2">Skills:</h3>
                     <div className="flex flex-wrap gap-1 sm:gap-2">
                         {skills.map((skill, idx) => (
-                            <span key={idx} className="text-blue-400 text-xs bg-blue-900/20 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full border border-blue-800/30">
+                            <span key={idx} className="text-gray-300 text-xs bg-gray-800/30 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full border border-gray-700/50 hover:bg-gray-700/40 hover:text-gray-200 transition-all duration-300">
                                 {skill}
                             </span>
                         ))}
