@@ -39,7 +39,7 @@ export default function Project({
 
                     <div className="flex flex-wrap gap-2">
                         {technologies.map((tech, index) => (
-                            <span key={index} className="text-blue-400 text-xs bg-blue-900/20 px-2 py-1 rounded-full border border-blue-800/30">
+                            <span key={index} className="text-gray-400 text-xs bg-gray-800/30 px-2 py-1 rounded-full border border-gray-700/40">
                                 {tech}
                             </span>
                         ))}
