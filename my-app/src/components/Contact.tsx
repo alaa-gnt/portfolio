@@ -42,15 +42,15 @@ export default function Contact() {
 					{/* Socials */}
 					<div className="text-white font-semibold text-sm sm:text-base">Contact with Me</div>
 					<div className="flex flex-wrap gap-2 sm:gap-3">
-						<a href="#" className="flex items-center gap-2 border border-[#ee4848] rounded-md px-2 sm:px-3 py-1.5 sm:py-2 text-white hover:bg-[#ee4848]/10 text-sm">
+						<a href="https://github.com/alaa-gnt" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#ee4848] rounded-md px-2 sm:px-3 py-1.5 sm:py-2 text-white hover:bg-[#ee4848]/10 text-sm">
 							<FaGithub className="w-4 h-4 sm:w-5 sm:h-5" />
 							<span>GitHub</span>
 						</a>
-						<a href="#" className="flex items-center gap-2 border border-[#ee4848] rounded-md px-2 sm:px-3 py-1.5 sm:py-2 text-white hover:bg-[#ee4848]/10 text-sm">
+						<a href="https://www.linkedin.com/in/alaa-guenat-365861241/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#ee4848] rounded-md px-2 sm:px-3 py-1.5 sm:py-2 text-white hover:bg-[#ee4848]/10 text-sm">
 							<FaLinkedin className="w-4 h-4 sm:w-5 sm:h-5" />
 							<span>LinkedIn</span>
 						</a>
-						<a href="#" className="flex items-center gap-2 border border-[#ee4848] rounded-md px-2 sm:px-3 py-1.5 sm:py-2 text-white hover:bg-[#ee4848]/10 text-sm">
+						<a href="https://www.instagram.com/me._.alaa" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#ee4848] rounded-md px-2 sm:px-3 py-1.5 sm:py-2 text-white hover:bg-[#ee4848]/10 text-sm">
 							<FaInstagram className="w-4 h-4 sm:w-5 sm:h-5" />
 							<span>Instagram</span>
 						</a>
