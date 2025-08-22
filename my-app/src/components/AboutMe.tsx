@@ -17,7 +17,7 @@ export default function AboutMe() {
                         <div className="flex gap-3 text-gray-400 text-sm sm:text-base justify-center lg:justify-start"><LuMapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#ee4848] flex-shrink-0" /> Based on Algeria</div>
                         <div className="flex gap-3 text-gray-400 text-sm sm:text-base justify-center lg:justify-start"><LuCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#ee4848] flex-shrink-0" /> 19 Yo </div>
                         <div className="flex gap-3 text-gray-400 text-sm sm:text-base justify-center lg:justify-start"><LuCode className="w-4 h-4 sm:w-5 sm:h-5 text-[#ee4848] flex-shrink-0" /> CS student</div>
-                        <div className="flex gap-3 text-gray-400 text-sm sm:text-base justify-center lg:justify-start"><LuCalendar className="w-4 h-4 sm:w-5 sm:h-5 text-[#ee4848] flex-shrink-0" /> +1 year experiance</div>
+                        <div className="flex gap-3 text-gray-400 text-sm sm:text-base justify-center lg:justify-start"><LuCalendar className="w-4 h-4 sm:w-5 sm:h-5 text-[#ee4848] flex-shrink-0" /> +1 year experience</div>
                     </div>
 
                         <div className="text-white m-2 max-w-sm text-sm sm:text-base leading-relaxed font-light">

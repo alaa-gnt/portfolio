@@ -15,8 +15,8 @@ export default function Skills() {
                         <SkillsIcons name='Flutter'/>
                         <SkillsIcons name='ML/DL'/>
                         <SkillsIcons name='Pandas'/>
-                        <SkillsIcons name='TenserFlow'/>
-                        <SkillsIcons name='pyTorch'/>
+                        <SkillsIcons name='TensorFlow'/>
+                        <SkillsIcons name='PyTorch'/>
                     </div>
 
                     <div className='flex flex-col gap-2'>
@@ -34,7 +34,7 @@ export default function Skills() {
                         </div>
                         <div className='text-white flex items-center gap-2 text-sm sm:text-base font-light'>
                             <span className='text-red-500 font-bold'>→</span>
-                            Problem solvig
+                            Problem solving
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ export default function TimeLine() {
                                     title="Junior Full stack Developer"
                                     country="Algeria"
                                     location="Personal Projects"
-                                    description="worked on many personl web and mobile project using react - tailwin - flutter and more"
+                                    description="worked on many personal web and mobile projects using react - tailwind - flutter and more"
                                     skills={["React", "TypeScript" , "flutter"]}
                                     points={["Mobile app clone" , "Portfolio"]}
                                     yearColor="text-green-400"
@@ -45,9 +45,9 @@ export default function TimeLine() {
                                     title="CS student"
                                     country="Algeria"
                                     location="ESI-alger"
-                                    description="student at on the best computer scince schools in the country"
+                                    description="student at one of the best computer science schools in the country"
                                     skills={["C", "Algorithmic" , "Assembly" , "Z , hh"]}
-                                    points={["strong problem solving base" , "advance data structure and algorithms" , "many labs on low programing languages" , "strong foundation on mathematics"]}
+                                    points={["strong problem solving base" , "advanced data structures and algorithms" , "many labs on low programming languages" , "strong foundation on mathematics"]}
                                     yearColor="text-blue-400"
                                 />
                             </div>
@@ -68,9 +68,9 @@ export default function TimeLine() {
                                     title="high school study"
                                     country="Algeria"
                                     location="Mahelma"
-                                    description="glad to have avrged a very good greed on my final highschool exam after 3 years of hard work"
+                                    description="glad to have achieved a very good grade on my final high school exam after 3 years of hard work"
                                     skills={["math", "physics" , "science"]}
-                                    points={["strong acadimice foundation" , "great at math"]}
+                                    points={["strong academic foundation" , "great at math"]}
                                     yearColor="text-purple-400"
                                 />
                             </div>

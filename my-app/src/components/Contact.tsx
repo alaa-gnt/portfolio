@@ -7,7 +7,7 @@ export default function Contact() {
 			<div className="flex items-center justify-center flex-col gap-4 sm:gap-5 max-w-4xl mx-auto">
 				<div className="text-[#757575] text-sm sm:text-base">GET IN TOUCH</div>
 				<div className="text-white text-3xl sm:text-4xl lg:text-5xl text-center px-4">Let's Create Something Together</div>
-				<div className="text-[#757575] max-w-lg text-center text-sm sm:text-base px-4">Have a project in mind? Let's bring your idea to life. i'm currently 
+				<div className="text-[#757575] max-w-lg text-center text-sm sm:text-base px-4">Have a project in mind? Let's bring your idea to life. I'm currently 
 					available for freelance projects and collaboration
 				</div>
 			</div>

@@ -88,7 +88,7 @@ export default function Main() {
            <span className="block sm:inline">Throw Code and Logic</span>
          </h1>
          <h3 className="text-gray-300 text-center pt-2 sm:pt-3 text-sm sm:text-base lg:text-lg px-4 max-w-2xl">
-           Building immersive web experience that push <br className="hidden sm:block" /> 
+           Building immersive web experiences that push <br className="hidden sm:block" /> 
            <span className="block sm:inline">the boundaries of what's possible</span>
          </h3>
 
