@@ -17,21 +17,21 @@ export default function TopBar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full p-5 flex justify-between transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full p-3 sm:p-4 lg:p-5 flex justify-between transition-all duration-300 z-50 ${
         scrolled
           ? "backdrop-blur-md bg-black/30" 
           : "bg-transparent"
       }`}
     >
-      <h1 className="text-white pl-10 font-bold text-lg">
+      <h1 className="text-white pl-4 sm:pl-6 lg:pl-10 font-bold text-base sm:text-lg">
         <a href="#">AL</a>
       </h1>
-      <ul className="flex gap-5 text-white items-center pr-10">
-        <li><a href="#">WORK</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <button className="bg-white p-2 rounded-full flex items-center justify-center">
-          <LuMoon className="w-5 h-5 text-black" />
+      <ul className="flex gap-3 sm:gap-4 lg:gap-5 text-white items-center pr-4 sm:pr-6 lg:pr-10">
+        <li className="text-sm sm:text-base"><a href="#">WORK</a></li>
+        <li className="text-sm sm:text-base"><a href="#">ABOUT</a></li>
+        <li className="text-sm sm:text-base"><a href="#">CONTACT</a></li>
+        <button className="bg-white p-1.5 sm:p-2 rounded-full flex items-center justify-center">
+          <LuMoon className="w-4 h-4 sm:w-5 sm:h-5 text-black" />
         </button>
       </ul>
     </nav>

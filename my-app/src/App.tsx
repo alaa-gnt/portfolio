@@ -5,7 +5,8 @@ import AboutMe from './components/AboutMe'
 import Infos from './components/Infos'
 import Skills from './components/Skills'
 import TimeLine from './components/TimeLine'
-
+import Projects from './components/Projects'
+import Contact from './components/Contact'
 function App() {
 
   return (
@@ -17,6 +18,8 @@ function App() {
       <Infos />
       <Skills />
       <TimeLine />
+      <Projects />
+      <Contact />
     </div>
      </>
   )
