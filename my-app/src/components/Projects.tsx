@@ -2,8 +2,18 @@ import Project from './Project'
 
 export default function Projects() {
     return (
-        <section className="py-16 px-4 sm:px-6 md:px-8">
-            <div className="max-w-6xl mx-auto">
+        <section className="py-20 px-4 sm:px-6 md:px-8 relative overflow-hidden">
+            {/* Background Shapes for Projects */}
+            <div className="absolute inset-0 pointer-events-none">
+                <div className="absolute top-20 right-16 w-36 h-36 rounded-full bg-[#ee4848]/2 blur-sm"></div>
+                <div className="absolute bottom-24 left-20 w-24 h-24 rounded-full bg-[#ee4848]/4 blur-sm"></div>
+                <div className="absolute top-1/3 left-1/3 w-20 h-20 rounded-full bg-[#ee4848]/3 blur-sm"></div>
+                <div className="absolute bottom-1/3 right-1/4 w-16 h-16 bg-[#ee4848]/2 rounded-lg blur-sm transform rotate-45"></div>
+                <div className="absolute top-2/3 right-1/3 w-0 h-0 border-l-[18px] border-l-transparent border-b-[28px] border-b-[#ee4848]/3 border-r-[18px] border-r-transparent blur-sm"></div>
+                <div className="absolute bottom-1/4 left-1/4 w-12 h-12 rounded-full bg-[#ee4848]/5 blur-sm"></div>
+            </div>
+            
+            <div className="max-w-6xl mx-auto relative z-10">
                 <h2 className="text-white text-3xl sm:text-4xl font-bold text-center mb-12">
                     My Projects
                 </h2>

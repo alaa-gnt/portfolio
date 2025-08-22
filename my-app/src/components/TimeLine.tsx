@@ -2,8 +2,18 @@ import TimeLineBox from "./TimeLineBox"
 
 export default function TimeLine() { 
     return (
-        <div className="py-20 sm:py-24 lg:py-28 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-6xl mx-auto">
+        <div className="py-20 sm:py-24 lg:py-28 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+            {/* Background Shapes for Timeline */}
+            <div className="absolute inset-0 pointer-events-none">
+                <div className="absolute top-24 left-16 w-32 h-32 rounded-full bg-[#ee4848]/3 blur-sm"></div>
+                <div className="absolute bottom-28 right-20 w-28 h-28 rounded-full bg-[#ee4848]/4 blur-sm"></div>
+                <div className="absolute top-1/2 right-1/4 w-20 h-20 rounded-full bg-[#ee4848]/2 blur-sm"></div>
+                <div className="absolute bottom-1/3 left-1/3 w-16 h-16 bg-[#ee4848]/3 rounded-lg blur-sm transform rotate-30"></div>
+                <div className="absolute top-2/3 left-1/4 w-0 h-0 border-l-[20px] border-l-transparent border-b-[32px] border-b-[#ee4848]/2 border-r-[20px] border-r-transparent blur-sm"></div>
+                <div className="absolute bottom-1/4 right-1/3 w-14 h-14 rounded-full bg-[#ee4848]/5 blur-sm"></div>
+            </div>
+            
+            <div className="max-w-6xl mx-auto relative z-10">
                 {/* Timeline Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">My Journey</h2>

@@ -8,11 +8,13 @@ import TimeLine from './components/TimeLine'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CustomCursor from './components/CustomCursor'
 function App() {
 
   return (
     <>
-    <div>
+    <div className="relative cursor-none">
+      <CustomCursor />
       <TopBar />
       <Main />  
       <AboutMe />   

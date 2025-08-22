@@ -3,7 +3,17 @@ import { FaGithub, FaLinkedin, FaInstagram, FaDiscord } from "react-icons/fa";
 
 export default function Contact() { 
 	return (
-		<div className="flex flex-col gap-8 sm:gap-10 px-4 sm:px-6 lg:px-8">
+		<div className="py-20 flex flex-col gap-8 sm:gap-10 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+			{/* Background Shapes for Contact */}
+			<div className="absolute inset-0 pointer-events-none">
+				<div className="absolute top-16 right-12 w-30 h-30 rounded-full bg-[#ee4848]/3 blur-sm"></div>
+				<div className="absolute bottom-20 left-16 w-24 h-24 rounded-full bg-[#ee4848]/4 blur-sm"></div>
+				<div className="absolute top-1/2 left-1/4 w-18 h-18 rounded-full bg-[#ee4848]/2 blur-sm"></div>
+				<div className="absolute bottom-1/3 right-1/3 w-14 h-14 bg-[#ee4848]/3 rounded-lg blur-sm transform rotate-15"></div>
+				<div className="absolute top-2/3 right-1/4 w-0 h-0 border-l-[16px] border-l-transparent border-b-[26px] border-b-[#ee4848]/2 border-r-[16px] border-r-transparent blur-sm"></div>
+			</div>
+			
+			<div className="relative z-10">
 			<div className="flex items-center justify-center flex-col gap-4 sm:gap-5 max-w-4xl mx-auto">
 				<div className="text-[#757575] text-sm sm:text-base">GET IN TOUCH</div>
 				<div className="text-white text-3xl sm:text-4xl lg:text-5xl text-center px-4">Let's Create Something Together</div>
@@ -72,6 +82,7 @@ export default function Contact() {
 					</form>
 				</div>
 			</div>
+		</div>
 		</div>
 	)
 }

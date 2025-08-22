@@ -3,3 +3,23 @@
 :root { 
   background-color: #0a0a0a;
 }
+
+/* Custom cursor styles */
+* {
+  cursor: none !important;
+}
+
+/* Hover effects for interactive elements */
+a:hover,
+button:hover,
+input:hover,
+textarea:hover,
+select:hover {
+  cursor: none !important;
+}
+
+/* Ensure the custom cursor is always on top */
+.custom-cursor {
+  pointer-events: none;
+  z-index: 9999;
+}
