@@ -27,9 +27,9 @@ export default function TopBar() {
         <a href="#">AL</a>
       </h1>
       <ul className="flex gap-3 sm:gap-4 lg:gap-5 text-white items-center pr-4 sm:pr-6 lg:pr-10">
-        <li className="text-sm sm:text-base"><a href="#">WORK</a></li>
-        <li className="text-sm sm:text-base"><a href="#">ABOUT</a></li>
-        <li className="text-sm sm:text-base"><a href="#">CONTACT</a></li>
+  <li className="text-sm sm:text-base"><a href="#work" onClick={e => {e.preventDefault(); document.getElementById('work')?.scrollIntoView({behavior: 'smooth'});}}>WORK</a></li>
+  <li className="text-sm sm:text-base"><a href="#about" onClick={e => {e.preventDefault(); document.getElementById('about')?.scrollIntoView({behavior: 'smooth'});}}>ABOUT</a></li>
+  <li className="text-sm sm:text-base"><a href="#contact" onClick={e => {e.preventDefault(); document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'});}}>CONTACT</a></li>
         <button className="bg-white p-1.5 sm:p-2 rounded-full flex items-center justify-center">
           <LuMoon className="w-4 h-4 sm:w-5 sm:h-5 text-black" />
         </button>

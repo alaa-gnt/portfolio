@@ -93,11 +93,11 @@ export default function Main() {
          </h3>
 
          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 pt-6 sm:pt-8 w-full sm:w-auto">
-           <button className="bg-white text-black px-6 sm:px-8 lg:px-11 py-3 sm:py-4 text-center text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors">
+           <button className="bg-white text-black px-6 sm:px-8 lg:px-11 py-3 sm:py-4 text-center text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors" onClick={() => document.getElementById('work')?.scrollIntoView({behavior: 'smooth'})}>
              View Work
            </button>
 
-           <button className="bg-black text-white px-6 sm:px-8 lg:px-11 py-3 sm:py-4 text-center text-sm sm:text-base font-medium hover:bg-gray-800 transition-colors">
+           <button className="bg-black text-white px-6 sm:px-8 lg:px-11 py-3 sm:py-4 text-center text-sm sm:text-base font-medium hover:bg-gray-800 transition-colors" onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})}>
              Get in Touch
            </button>            
          </div>

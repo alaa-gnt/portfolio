@@ -15,15 +15,15 @@ function App() {
     <>
     <div className="relative cursor-none">
       <CustomCursor />
-      <TopBar />
-      <Main />  
-      <AboutMe />   
-      <Infos />
-      <Skills />
-      <TimeLine />
-      <Projects />
-      <Contact />
-      <Footer />
+  <TopBar />
+  <main id="main"><Main /></main>
+  <section id="about"><AboutMe /></section>
+  <section id="infos"><Infos /></section>
+  <section id="skills"><Skills /></section>
+  <section id="timeline"><TimeLine /></section>
+  <section id="work"><Projects /></section>
+  <section id="contact"><Contact /></section>
+  <Footer />
     </div>
      </>
   )
