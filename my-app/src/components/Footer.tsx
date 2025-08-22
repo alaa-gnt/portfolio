@@ -6,7 +6,8 @@ export default function Footer() {
         <span className="text-sm">&copy; {new Date().getFullYear()} Alaa GNT. All rights reserved.</span>
         <div className="flex gap-4 mt-2 sm:mt-0">
           <a href="https://github.com/alaa-gnt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
-          <a href="https://linkedin.com/in/alaa-gnt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/alaa-guenat-365861241/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+          <a href="https://www.instagram.com/me._.alaa" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Instagram</a>
         </div>
       </div>
     </footer>
